@@ -12,5 +12,4 @@
         }
     },
     "postCreateCommand": "pipx install algokit",
-    "postStartCommand": "algokit localnet start"
 }
