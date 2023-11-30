@@ -17,9 +17,10 @@ For TEALScript documentation, go to https://tealscript.algo.xyz
 5. Follow the prompts, enter your email, check your spam folder for the verification code, complete the verification
 6. You may close the Dispenser website after verification, which will return you to the CLI
 7. The response will contain the ALGOKIT_DISPENSER_ACCESS_TOKEN
-8. Edit the `.env.template` file to include the fields from #1 & #7
 9. Bootstrap the project
    `algokit bootstrap all`
+8. When prompted in the CLI, include the fields from #1 & #7
+9. Run `npm install cross-fetch`. This is a temporary fix for a bug.
 10. Register your account on the Google Form 
 
 ### Run Level 0 Challenge
