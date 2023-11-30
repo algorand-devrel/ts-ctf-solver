@@ -20,8 +20,7 @@ For TEALScript documentation, go to https://tealscript.algo.xyz
 7. Bootstrap the project
    `algokit bootstrap all`
 8. When prompted in the CLI, include the fields from #1 & #6
-9. Run `npm install cross-fetch`. This is a temporary fix for a bug.
-10. Register your account on the Google Form 
+9. Register your account on the Google Form 
 
 ### Run Level 0 Challenge
 1. `npx tsx src/level0.ts`
