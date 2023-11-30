@@ -28,6 +28,10 @@ For TEALScript documentation, go to https://tealscript.algo.xyz
 
 ### Build Contract
 
+#### Without LocalNet
+`ALGOD_SERVER="https://testnet-api.algonode.cloud" ALGOD_PORT=443 ALGOD_TOKEN="" npm run build` will compile the contract without using LocalNet but producing the same artifacts as the commands in the next section
+
+#### With LocalNet
 `npm run build` will compile the contract to TEAL and generate an ABI and appspec JSON in [./contracts/artifacts](./contracts/artifacts/) and a algokit TypeScript client in [./contracts/clients](./contracts/clients/).
 
 `npm run compile-contract` or `npm run generate-client` can be used to compile the contract or generate the contract seperately.
